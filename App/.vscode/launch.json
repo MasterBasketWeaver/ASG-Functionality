@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            //https://businesscentral.dynamics.com/c9bf19ef-111a-48b0-9aac-03a6855c9eb1/Sandbox-Dev?company=ASG%20Test&dc=0
+            "name": "ASG - Sandbox-Dev",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "sandbox-Dev",
+            "tenant": "c9bf19ef-111a-48b0-9aac-03a6855c9eb1",
+            "startupObjectId": 42,
+            "startupObjectType": "Page",
+            "breakOnError": true,
+            "launchBrowser": false,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            // "schemaUpdateMode":"ForceSync"
+        },
+    ]
+}
